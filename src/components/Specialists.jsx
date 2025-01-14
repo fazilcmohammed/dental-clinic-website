@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { specialists } from "../assets/constant";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import underline from '../assets/img/Highlight Underline 3.svg'
 
 
 const Specialists = () => {
@@ -34,8 +35,9 @@ const Specialists = () => {
   return (
     <section className="overflow-hidden bg-lightblue p-10 rounded-xl">
       <div>
-        <h1 className="text-5xl font-bold text-darkblue mb-4 text-center capitalize leading-snug">
+        <h1 className="text-5xl font-bold text-darkblue mb-4 text-center relative capitalize leading-snug">
           Meet Our Specialists
+          <img src={underline} alt="" className="w-72 absolute left-[48%] -top-20 right-0"/>
         </h1>
         <p className="text-center font-normal text-bodytext leading-5">
           We use only the best quality materials on the market in <br /> order
@@ -45,7 +47,7 @@ const Specialists = () => {
       <div className="my-10">
         <div className="flex gap-8 transition-transform duration-500 ease-in-out" style={{transform:`translateX(-${(currentIndex * 100)/cardsToShow}%)`}}>
           {specialists.map((specialist, index) => (
-            <div key={index} className="flex-shrink-0 w-64 relative justify-center  ">
+            <div key={index} className="flex-shrink-0 w-64 relative justify-center shadow-xl ">
               <img src={specialist.img} alt="" />
               <div className="absolute  bottom-5 left-0 right-0 flex justify-center ">
                 <div className="inline-block bg-gradient-to-r from-[#5c95c9] to-[#c5c9cb] w-[90%] py-3 px-6 rounded-lg">

@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Services from './components/services'
 import Specialists from './components/Specialists'
+import Testimonial from './components/Testimonial'
 import Welcoming from './components/Welcoming'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Welcoming/>
         <ChooseUs/>
         <Specialists/>
+        <Testimonial/>
         <Footer/>
       </div>
     </>

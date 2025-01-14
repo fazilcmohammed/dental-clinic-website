@@ -5,8 +5,10 @@ import img1 from '../assets/img/image 6.jpg'
 import img2 from '../assets/img/image 7.jpg'
 import img3 from '../assets/img/image 8.jpg'
 import img4 from '../assets/img/image 9.jpg'
-import img5 from '../assets/img/image10.jpg'
-import img6 from '../assets/img/image11.jpg'
+import profile1 from '../assets/img/profile1.png'
+import profile2 from '../assets/img/profile2.png'
+import profile3 from '../assets/img/profile3.png'
+import profile4 from '../assets/img/profile4.png'
 
 
 export const services = [
@@ -67,5 +69,44 @@ export const specialists = [
         name : 'Josin K George',
         role : 'Orthodontist',
         img : img1
+    },
+]
+
+export const testimonials = [
+    {
+        name : 'Thomas Danial',
+        comment : 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        image : profile1,
+        rating : 3
+    },
+    {
+        name : 'Alena Alex',
+        comment : 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        image : profile2,
+        rating : 4
+    },
+    {
+        name : 'Thomas Edison',
+        comment : 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        image : profile3,
+        rating : 4
+    },
+    {
+        name : 'Thomas Daniel',
+        comment : 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        image : profile4,
+        rating : 3
+    },
+    {
+        name : 'Thomas Daniel',
+        comment : 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        image : profile4,
+        rating : 3
+    },
+    {
+        name : 'Thomas Daniel',
+        comment : 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        image : profile4,
+        rating : 3
     },
 ]
